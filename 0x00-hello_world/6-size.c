@@ -3,15 +3,13 @@
 /**
  * main-print the string in the input function
  * 
- * Description: using the main function
+ * Description:using the main function
  * this program prints "the size of various types on the computer it is compiled and run on
- * Return:0
+ * Return: 0
  */
 
 int main(void)
-
 {
-
         printf("Size of a char: %d byte(s)\n", sizeof(char));
         printf("Size of an int: %d byte(s)\n", sizeof(int));
         printf("Size of a long int: %d byte(s)\n", sizeof(long int));
