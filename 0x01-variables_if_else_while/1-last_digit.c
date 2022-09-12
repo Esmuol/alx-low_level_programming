@@ -4,8 +4,8 @@
 
 /*
 *main - Entry point
-* 
-*Description:using the program function
+*
+*Description: using the function
 *this program prints "whether last digits of string is positive, negative, zero
 *Return: (0)
 */
@@ -21,7 +21,7 @@ int main(void)
 
 	if (L > 5)
 	{
-		printf("%s is %d is %d and is greater than 5\n", str, n, L);
+		printf("%s is %d is %d and is greater than 5\n", char str, n, L);
 	}
 	else if (L == 0)
 	{
