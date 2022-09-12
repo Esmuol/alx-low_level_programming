@@ -3,30 +3,33 @@
 #include <stdio.h>
 
 /*
-*main - Entry point
-*
-*Description: using the program function
-*this program prints "whether last digits of string is positive, negative, zero
+* main - Entry point
+* 
+* Description: using the program function
+* this program prints "whether last digits of string is positive, negative, zero
 *Return: (0)
 */
 int main(void)
 {
 	int n; 
+	int L;
+	char str[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	L = n % 10;
 
-	if (1 > 5)
+	if (L > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, 1);
+		printf("%s is %d and is greater than 5\n", str, n, L);
 	}
-	else if (1 == 0)
+	else if (L == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, 1);
+		printf("%s %d is %d and is 0\n", str, n, L);
 	}
-	else
+	else if (L < 6)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
+		printf("%s %d is %d and is less than 6 and not 0\n", str, n, L);
 	}
 	return (0);
 }
