@@ -1,34 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/*
-*main - using the function
+/**
+* main - print if the number is positive, zero or negative
 *
-*Description: this program prints "whether last digits of string is positive, negative, zero
-*Return: (0)
+* Description: using the main function
+* this program prints "programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
-	int n; 
-	int L;
-	char str[] = "Last digit of";
+int n;
+int l;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	L = n % 10;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+l = n % 10;
 
-	if (L > 5)
-	{
-		printf("%s is %d is %d and is greater than 5\n", str, n, L);
-	}
-	else if (L == 0)
-	{
-		printf("%s %d is %d and is 0\n", str, n, L);
-	}
-	else if (L < 6)
-	{
-		printf("%s %d is %d and is less than 6 and not 0\n", str, n, L);
-	}
-	return (0);
+if (l > 5)
+{
+        printf("Last digit of %d is %d and is greater than 5\n", n, l);
+}
+else if (l == 0)
+{
+        print("Last digit of %d is %d and is 0\n", n, l);
+}
+else
+{
+        printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+}
+return (0);
 }
