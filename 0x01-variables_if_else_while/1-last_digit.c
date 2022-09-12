@@ -2,16 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 
-/*main - Entry point
+/*
+*main - Entry point
 *
-*Description:using the program function
+*Description: using the program function
 *this program prints "whether last digits of string is positive, negative, zero
 *Return: (0)
 */
 int main(void)
 {
-	int n;
-	
+	int n; 
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
