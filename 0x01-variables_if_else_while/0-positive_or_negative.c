@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - Entry point 
+/**
+*main - Entry point
 *
-* Description: using the main function 
-* this program prints "programming is positive, zero, or negative 
-* Return: 0
+*Description:using the main function
+*this program prints "programming is positive, zero, or negative
+*Return: 0
 */
- 
+
 int main(void)
 {
 	int n;
@@ -25,7 +26,7 @@ int main(void)
 		printf("%i is zero\n", n);
 	}
 	if (n < 0)
-	{ 
+	{
 		printf("%i is negative\n", n);
 	}
 	return (0);
