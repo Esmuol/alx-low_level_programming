@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /*
-* main - Entry point
+*main - Entry point
 * 
-* Description: using the program function
-* this program prints "whether last digits of string is positive, negative, zero
+*Description:using the program function
+*this program prints "whether last digits of string is positive, negative, zero
 *Return: (0)
 */
 int main(void)
