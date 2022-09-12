@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
-* main - Entry point
+* main - programing ising main function
 * 
 * Description: using the program function
 * this program prints "whether last digits of string is positive, negative, zero
@@ -11,6 +11,7 @@
 */
 
 int main(void)
+
 {
 	int n;
 	int l;
