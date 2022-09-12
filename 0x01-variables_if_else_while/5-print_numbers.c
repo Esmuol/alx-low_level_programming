@@ -6,7 +6,6 @@
 * this program prints "programming is positive, zero, or negative
 * Return: 0
 */
-
 int main(void)
 
 {
@@ -18,5 +17,6 @@ int main(void)
 	}
 
 	printf("\n");
+
 	return (0);
 }
