@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
-* main - programing ising main function
+* main - print if the number is positive, zero or negative
 * 
 * Description: using the program function
 * this program prints "whether last digits of string is positive, negative, zero
@@ -11,7 +11,6 @@
 */
 
 int main(void)
-
 {
 	int n;
 	int l;
