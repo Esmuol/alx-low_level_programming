@@ -6,9 +6,7 @@
  * this program prints "programming is positive, zero, or negative
  * Return: 0
  */
-
 int main(void)
-
 {
 	int c;
 	
@@ -18,7 +16,6 @@ int main(void)
 			putchar(c + '0');
 			c++;
 		}
-	
 	putchar('\n');
 	return (0);
 }
